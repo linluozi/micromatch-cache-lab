@@ -167,7 +167,7 @@ scavenge、晋升老生代，GC 成本超过缓存收益。二次准入让它们
 ## 5. 复现
 
 ```bash
-npm install              # picomatch 2.3.0 / braces 3.0.2（ZIP 内已附带 node_modules）
+npm install              # picomatch 2.3.0 / braces 3.0.2
 npm test                 # 24 个差分/单元测试
 npm run bench            # 三类场景，输出 results/bench.{json,md}
 npm run bench:memory     # 堆占用，需 --expose-gc（脚本内部已带）
