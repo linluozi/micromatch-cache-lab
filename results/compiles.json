@@ -1,0 +1,58 @@
+[
+  {
+    "case": "mm(list, pattern)",
+    "baselineCompiles": 1,
+    "patchedCompiles": 1,
+    "hits": 0,
+    "misses": 0,
+    "hitRate": "0%"
+  },
+  {
+    "case": "isMatch x N (same pattern)",
+    "baselineCompiles": 1000,
+    "patchedCompiles": 2,
+    "hits": 998,
+    "misses": 2,
+    "hitRate": "99.8%"
+  },
+  {
+    "case": "matcher() x N",
+    "baselineCompiles": 100,
+    "patchedCompiles": 2,
+    "hits": 98,
+    "misses": 2,
+    "hitRate": "98.0%"
+  },
+  {
+    "case": "some() x N",
+    "baselineCompiles": 100,
+    "patchedCompiles": 2,
+    "hits": 98,
+    "misses": 2,
+    "hitRate": "98.0%"
+  },
+  {
+    "case": "every() x N",
+    "baselineCompiles": 100,
+    "patchedCompiles": 2,
+    "hits": 98,
+    "misses": 2,
+    "hitRate": "98.0%"
+  },
+  {
+    "case": "all() x N",
+    "baselineCompiles": 100,
+    "patchedCompiles": 2,
+    "hits": 98,
+    "misses": 2,
+    "hitRate": "98.0%"
+  },
+  {
+    "case": "isMatch, unique patterns",
+    "baselineCompiles": 1000,
+    "patchedCompiles": 1000,
+    "hits": 0,
+    "misses": 1000,
+    "hitRate": "0.0%"
+  }
+]

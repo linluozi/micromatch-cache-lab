@@ -1,0 +1,22 @@
+{
+  "name": "micromatch-cache-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Differential benchmark and minimal compile-cache patch for micromatch 4.0.4",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "braces": "3.0.2",
+    "picomatch": "2.3.0"
+  },
+  "scripts": {
+    "test": "node --test test/differential.test.js test/cache.test.js",
+    "bench": "node bench/run.js",
+    "bench:memory": "node bench/memory-run.js",
+    "bench:compiles": "node bench/count-compiles.js",
+    "bench:all": "node bench/count-compiles.js && node bench/run.js && node bench/memory-run.js",
+    "assets": "node scripts/make-assets.cjs"
+  }
+}

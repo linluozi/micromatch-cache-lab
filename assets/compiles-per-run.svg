@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#F7F1E6"/>
+<defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5747"/></marker>
+  </defs>
+<text x="56" y="62" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">同一批调用，实际触发多少次 glob 编译</text>
+<text x="56" y="92" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">isMatch 调用 1000 次；matcher / some / every / all 各 100 次 · 对数轴 · 越少越好</text>
+<rect x="816" y="44" width="16" height="16" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="840" y="57" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">baseline 4.0.4</text>
+<rect x="1000" y="44" width="16" height="16" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="1024" y="57" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">补丁版</text>
+<line x1="340" y1="162" x2="340" y2="624" stroke="#DFD0BB" stroke-width="1"/>
+<text x="340" y="650" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">1</text>
+<line x1="415.27750987662404" y1="162" x2="415.27750987662404" y2="624" stroke="#DFD0BB" stroke-width="1"/>
+<text x="415.27750987662404" y="650" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">2</text>
+<line x1="590.0664749723182" y1="162" x2="590.0664749723182" y2="624" stroke="#DFD0BB" stroke-width="1"/>
+<text x="590.0664749723182" y="650" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">10</text>
+<line x1="840.1329499446365" y1="162" x2="840.1329499446365" y2="624" stroke="#DFD0BB" stroke-width="1"/>
+<text x="840.1329499446365" y="650" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">100</text>
+<line x1="1090.1994249169547" y1="162" x2="1090.1994249169547" y2="624" stroke="#DFD0BB" stroke-width="1"/>
+<text x="1090.1994249169547" y="650" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">1000</text>
+<text x="56" y="213" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">mm(list, p)</text>
+<rect x="340" y="190" width="5" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="353" y="203" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">1</text>
+<rect x="340" y="211" width="5" height="15" rx="3" fill="#A29383" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="353" y="225" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">1</text>
+<text x="56" y="277" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">isMatch · 同 pattern</text>
+<rect x="340" y="254" width="750.1994249169547" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="1098.1994249169547" y="267" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">1000</text>
+<rect x="340" y="275" width="75.27750987662404" height="15" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="423.27750987662404" y="289" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<text x="56" y="341" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">matcher()</text>
+<rect x="340" y="318" width="500.1329499446365" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="848.1329499446365" y="331" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">100</text>
+<rect x="340" y="339" width="75.27750987662404" height="15" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="423.27750987662404" y="353" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<text x="56" y="405" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">some()</text>
+<rect x="340" y="382" width="500.1329499446365" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="848.1329499446365" y="395" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">100</text>
+<rect x="340" y="403" width="75.27750987662404" height="15" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="423.27750987662404" y="417" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<text x="56" y="469" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">every()</text>
+<rect x="340" y="446" width="500.1329499446365" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="848.1329499446365" y="459" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">100</text>
+<rect x="340" y="467" width="75.27750987662404" height="15" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="423.27750987662404" y="481" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<text x="56" y="533" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">all()</text>
+<rect x="340" y="510" width="500.1329499446365" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="848.1329499446365" y="523" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">100</text>
+<rect x="340" y="531" width="75.27750987662404" height="15" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="423.27750987662404" y="545" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">2</text>
+<text x="56" y="597" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="600" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">isMatch · 全唯一</text>
+<rect x="340" y="574" width="750.1994249169547" height="15" rx="3" fill="#C9B7A2" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="1098.1994249169547" y="587" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">1000</text>
+<rect x="340" y="595" width="750.1994249169547" height="15" rx="3" fill="#A29383" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="1098.1994249169547" y="609" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12.5" font-weight="700" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">1000</text>
+<text x="56" y="688" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#A29383" text-anchor="start" opacity="1" letter-spacing="0">计数方式：插桩 picomatch.makeRe，只加计数器，其余源码逐字节相同；results/compiles.json</text>
+</svg>

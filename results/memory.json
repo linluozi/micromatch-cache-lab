@@ -1,0 +1,167 @@
+{
+  "fill": [
+    {
+      "kind": "simple",
+      "baseline": {
+        "variant": "baseline",
+        "mode": "fill",
+        "kind": "simple",
+        "entries": 1000,
+        "seconds": 30.7155,
+        "cacheSize": 0,
+        "heapDeltaBytes": 132344,
+        "bytesPerEntry": null,
+        "stats": null
+      },
+      "patched": {
+        "variant": "patched",
+        "mode": "fill",
+        "kind": "simple",
+        "entries": 256,
+        "seconds": 11.4502,
+        "cacheSize": 256,
+        "heapDeltaBytes": 1110824,
+        "bytesPerEntry": 4339,
+        "stats": {
+          "hits": 0,
+          "misses": 512,
+          "evictions": 0,
+          "rejected": 256,
+          "size": 256,
+          "seen": 0,
+          "max": 256
+        }
+      }
+    },
+    {
+      "kind": "brace",
+      "baseline": {
+        "variant": "baseline",
+        "mode": "fill",
+        "kind": "brace",
+        "entries": 1000,
+        "seconds": 73.3543,
+        "cacheSize": 0,
+        "heapDeltaBytes": 218408,
+        "bytesPerEntry": null,
+        "stats": null
+      },
+      "patched": {
+        "variant": "patched",
+        "mode": "fill",
+        "kind": "brace",
+        "entries": 256,
+        "seconds": 28.5195,
+        "cacheSize": 256,
+        "heapDeltaBytes": 2098408,
+        "bytesPerEntry": 8197,
+        "stats": {
+          "hits": 0,
+          "misses": 512,
+          "evictions": 0,
+          "rejected": 256,
+          "size": 256,
+          "seen": 0,
+          "max": 256
+        }
+      }
+    },
+    {
+      "kind": "extglob",
+      "baseline": {
+        "variant": "baseline",
+        "mode": "fill",
+        "kind": "extglob",
+        "entries": 1000,
+        "seconds": 91.8731,
+        "cacheSize": 0,
+        "heapDeltaBytes": 229528,
+        "bytesPerEntry": null,
+        "stats": null
+      },
+      "patched": {
+        "variant": "patched",
+        "mode": "fill",
+        "kind": "extglob",
+        "entries": 256,
+        "seconds": 54.7635,
+        "cacheSize": 256,
+        "heapDeltaBytes": 2772728,
+        "bytesPerEntry": 10831,
+        "stats": {
+          "hits": 0,
+          "misses": 512,
+          "evictions": 0,
+          "rejected": 256,
+          "size": 256,
+          "seen": 0,
+          "max": 256
+        }
+      }
+    }
+  ],
+  "loop": {
+    "baseline": {
+      "variant": "baseline",
+      "mode": "loop",
+      "kind": "brace",
+      "calls": 200000,
+      "seconds": 1284.4881,
+      "usPerCall": 6.4224405,
+      "heapBefore": 16589304,
+      "heapAfter": 7374776,
+      "heapPeak": 73082232,
+      "heapPeakDelta": 56492928,
+      "retainedDelta": -9214528,
+      "cacheSize": 0
+    },
+    "patched": {
+      "variant": "patched",
+      "mode": "loop",
+      "kind": "brace",
+      "calls": 200000,
+      "seconds": 305.6026,
+      "usPerCall": 1.5280129999999998,
+      "heapBefore": 9785656,
+      "heapAfter": 8035392,
+      "heapPeak": 29411360,
+      "heapPeakDelta": 19625704,
+      "retainedDelta": -1750264,
+      "cacheSize": 1
+    }
+  },
+  "unique": {
+    "baseline": {
+      "variant": "baseline",
+      "mode": "unique",
+      "kind": "brace",
+      "calls": 8000,
+      "seconds": 128.8667,
+      "usPerCall": 16.1083375,
+      "heapPeakDelta": 10426224,
+      "retainedDelta": -36541584,
+      "cacheSize": 0,
+      "stats": null
+    },
+    "patched": {
+      "variant": "patched",
+      "mode": "unique",
+      "kind": "brace",
+      "calls": 8000,
+      "seconds": 98.6459,
+      "usPerCall": 12.3307375,
+      "heapPeakDelta": 9092320,
+      "retainedDelta": -38152056,
+      "cacheSize": 0,
+      "stats": {
+        "hits": 0,
+        "misses": 8000,
+        "evictions": 0,
+        "rejected": 8000,
+        "size": 0,
+        "seen": 1024,
+        "max": 256
+      }
+    }
+  }
+}

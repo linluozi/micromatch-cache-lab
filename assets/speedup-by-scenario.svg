@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#F7F1E6"/>
+<defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6B5747"/></marker>
+    <pattern id="hatch" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#A29383" opacity="0.18"/>
+      <line x1="0" y1="0" x2="0" y2="7" stroke="#A29383" stroke-width="2"/>
+    </pattern>
+  </defs>
+<text x="56" y="62" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="30" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">micromatch 4.0.4 · 编译缓存加速比</text>
+<text x="56" y="92" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="14.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">同一份确定性输入 · 9 轮交错 · 逐轮比值中位数 · 越靠右越好</text>
+<rect x="788" y="44" width="16" height="16" rx="3" fill="#BF4E2A" stroke="none" stroke-width="1.5" opacity="1"/>
+<text x="812" y="57" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">重复 pattern 有收益</text>
+<rect x="1000" y="44" width="16" height="16" rx="3" fill="url(#hatch)" stroke="#A29383" stroke-width="1" opacity="1"/>
+<text x="1024" y="57" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="13" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">≈1× 或更慢</text>
+<line x1="380" y1="146" x2="380" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="380" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">0.5×</text>
+<line x1="523.5569940777582" y1="146" x2="523.5569940777582" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="523.5569940777582" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">1×</text>
+<line x1="667.1139881555164" y1="146" x2="667.1139881555164" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="667.1139881555164" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">2×</text>
+<line x1="856.8860118444836" y1="146" x2="856.8860118444836" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="856.8860118444836" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">5×</text>
+<line x1="1000.4430059222419" y1="146" x2="1000.4430059222419" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="1000.4430059222419" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">10×</text>
+<line x1="1144" y1="146" x2="1144" y2="664" stroke="#DFD0BB" stroke-width="1"/>
+<text x="1144" y="690" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="12" font-weight="400" fill="#7A6A5C" text-anchor="middle" opacity="1" letter-spacing="0">20×</text>
+<text x="56" y="192.14285714285714" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">extglob</text>
+<text x="56" y="213.14285714285714" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">src/**/!(*.test|*.spec).@(js|ts) · 4k files</text>
+<rect x="380" y="181.14285714285714" width="696.4496136316902" height="26" rx="4" fill="#BF4E2A" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1086.4496136316902" y="200.14285714285714" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">14.43×</text>
+<text x="56" y="264.42857142857144" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">brace + globstar</text>
+<text x="56" y="285.42857142857144" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">**/{src,test}/**/*.{js,ts,jsx,tsx} · 4k files</text>
+<rect x="380" y="253.42857142857144" width="687.9541193379487" height="26" rx="4" fill="#BF4E2A" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1077.9541193379487" y="272.42857142857144" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">13.85×</text>
+<text x="56" y="336.7142857142857" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">brace</text>
+<text x="56" y="357.7142857142857" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">src/**/*.{js,ts} · 8k files</text>
+<rect x="380" y="325.7142857142857" width="626.2974748874525" height="26" rx="4" fill="#BF4E2A" stroke="none" stroke-width="1" opacity="1"/>
+<text x="1016.2974748874525" y="344.7142857142857" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">10.29×</text>
+<text x="56" y="409.00000000000006" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">negation</text>
+<text x="56" y="430.00000000000006" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">!**/node_modules/** · 4k files</text>
+<rect x="380" y="398.00000000000006" width="583.403483098674" height="26" rx="4" fill="#D08A2C" stroke="none" stroke-width="1" opacity="1"/>
+<text x="973.403483098674" y="417.00000000000006" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">8.36×</text>
+<text x="56" y="481.28571428571433" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">simple glob</text>
+<text x="56" y="502.28571428571433" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">*.js · 8k files</text>
+<rect x="380" y="470.28571428571433" width="423.1588963721332" height="26" rx="4" fill="#D08A2C" stroke="none" stroke-width="1" opacity="1"/>
+<text x="813.1588963721332" y="489.28571428571433" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">3.86×</text>
+<text x="56" y="553.5714285714286" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">mm(list, p)</text>
+<text x="56" y="574.5714285714286" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">主入口：列表内已复用编译 · 8k files</text>
+<rect x="380" y="542.5714285714286" width="141.63866602418102" height="26" rx="4" fill="url(#hatch)" stroke="#A29383" stroke-width="1" opacity="1"/>
+<text x="531.638666024181" y="561.5714285714286" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">0.99×</text>
+<text x="56" y="625.8571428571429" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="16.5" font-weight="700" fill="#241C16" text-anchor="start" opacity="1" letter-spacing="0">unique patterns</text>
+<text x="56" y="646.8571428571429" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">8k 一次性 pattern · 0% 命中</text>
+<rect x="380" y="614.8571428571429" width="89.21924295006295" height="26" rx="4" fill="url(#hatch)" stroke="#A29383" stroke-width="1" opacity="1"/>
+<text x="479.21924295006295" y="633.8571428571429" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="15.5" font-weight="700" fill="#7A6A5C" text-anchor="start" opacity="1" letter-spacing="0">0.77×</text>
+<line x1="523.5569940777582" y1="146" x2="523.5569940777582" y2="664" stroke="#241C16" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.55"/>
+<text x="56" y="726" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#A29383" text-anchor="start" opacity="1" letter-spacing="0">数据：results/bench.json · Node v22.22.2 · 命中率 100% 的场景为 8k/4k 次 isMatch 逐条调用</text>
+<text x="56" y="744" font-family="Microsoft YaHei, Segoe UI, sans-serif" font-size="11.5" font-weight="400" fill="#A29383" text-anchor="start" opacity="1" letter-spacing="0">一次性 pattern 的 0.77× 是缓存探测固定成本（约 +0.9 µs/次），可 setMaxEntries(0) 关闭</text>
+</svg>
